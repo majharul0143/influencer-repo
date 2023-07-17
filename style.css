@@ -93,14 +93,14 @@ ul li a{
 .isponsor-container{
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    justify-content: space-around;
     border-top: 2px solid #bdfcff7d;
     border-bottom: 2px solid #bdfcff7d;
     padding: 2rem 0;
 }
-.isponsor-container img{
-    
+.isponsor-container div{
+
 }
+
 
 @media screen and (max-width:576px) {
     header{
@@ -131,19 +131,16 @@ ul li a{
     }
     .banner-section{
         padding: 0;
+        margin: 0 auto;
     }
     .isponsor{
         padding: 0;
     }
     .isponsor-container{
        grid-template-columns: repeat(4,1fr);
-       gap: 2rem;
+       gap: 1rem;
        margin: 0 .2rem;
     }
-    .isponsor-container img{
-        width: 60px;
-    }
-    
 }
 
 @media screen and (min-width:577px) and (max-width:962px) {
