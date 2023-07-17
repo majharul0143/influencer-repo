@@ -85,6 +85,18 @@ ul li a{
     width: 100%;
 }
 /*   isponsor area   */
+.isponsor{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 0 100px;
+}
+.isponsor-container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #8dffff7a;
+    border-bottom: 2px solid #8dffff7a;
+    padding: 2rem;
+}
 
 
 @media screen and (max-width:576px) {
@@ -120,7 +132,20 @@ ul li a{
         padding: 0 10px;
         margin: 0 auto;
     }
-}
+    .isponsor-container{
+        width: 500px;
+        margin: 0 auto;
+        display: inline;
+        text-align: center;
+        border: none;
+        padding: 0;
+
+    }
+    .isponsor-container img{
+        width: 50px;
+        margin-left: 2rem;
+    }
+ 
 
 @media screen and (min-width:577px) and (max-width:962px) {
     header{
