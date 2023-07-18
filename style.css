@@ -159,6 +159,37 @@ ul li a{
     font-size: 700;
 }
 
+/*  gear section */
+.gear-section{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.gear-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+.gear-img img{
+
+}
+.gear-content{
+    margin-left: 3rem;
+}
+.gear-content h2{
+    color: #0A0826;
+    font-size: 2.2rem;
+    margin: 1rem 0;
+}
+.gear-content p{
+    margin: 1rem 0;
+}
+.gear-content button{
+    margin-top: 1rem;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
 
 
 @media screen and (max-width:576px) {
@@ -213,6 +244,13 @@ ul li a{
     }
     .card{
         margin: 0 10px;
+        padding: 0.5rem;
+    }
+    .gear-container{
+        flex-direction: column;
+    }
+    .gear-img img{
+        width: 100%;
     }
 }
  
@@ -248,5 +286,14 @@ ul li a{
     }
     .card{
         margin: 0 12px;
+    }
+    .gear-section{
+       
+    }
+    .gear-container{
+        flex-direction: column;
+    }
+    .gear-img img{
+        width: 100%;
     }
 }
