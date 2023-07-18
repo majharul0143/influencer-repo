@@ -141,6 +141,23 @@ ul li a{
     color: #787885;
     font-size: .9rem;
 }
+.card-section h4{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 20px;
+    color: #E02C6D;
+    font-size: 1.3rem;
+}
+.card-section h2{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+.card-section h4 span{
+    font-size: 1rem;
+    margin-left: 10px;
+    font-size: 700;
+}
 
 
 
