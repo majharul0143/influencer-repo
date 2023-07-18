@@ -97,6 +97,51 @@ ul li a{
     border-bottom: 2px solid #8dffff7a;
     padding: 2rem;
 }
+/*   card section   */
+.card-section{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.card{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 1.1rem;
+}
+.card img{
+    width: 100%;
+    height: 50%;
+}
+.card h3{
+    color: #18191F;
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin: 2px 0;
+}
+.card h5{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.icon{
+    margin: 5px 0 9px;
+    color: #FB8200;
+}
+.icon span{
+    color: rgba(0, 0, 0, 0.87);
+    margin-left: 10px;
+}
+.card p{
+    color: #787885;
+    font-size: .9rem;
+}
+
 
 
 @media screen and (max-width:576px) {
@@ -134,7 +179,7 @@ ul li a{
     }
     .isponsor-container{
         width: 500px;
-        margin: 0 auto;
+        margin: 2rem auto;
         display: inline;
         text-align: center;
         border: none;
@@ -142,21 +187,28 @@ ul li a{
 
     }
     .isponsor-container img{
-        width: 50px;
-        margin-left: 2rem;
+        width: 60px;
+        margin-left: 1rem;
     }
+    .card-container{
+        grid-template-columns: 1fr;
+        
+    }
+    .card{
+        margin: 0 10px;
+    }
+}
  
 
 @media screen and (min-width:577px) and (max-width:962px) {
     header{
         padding: 10px 0;
-        background-position: 50% 75%;
-        background-size: 70%;
+        background-position: 50% 85%;
+        background-size: 60%;
         
     }
     .navbar{
-        flex-direction: column;
-    
+        flex-direction: column;    
     }
     ul{
         margin-top: 30px;
@@ -167,5 +219,17 @@ ul li a{
     .banner-content{
         text-align: center;
         margin-top: 0px;
+    }
+    .isponsor-container{
+        gap: 3rem;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .card-container{
+        grid-template-columns: 1fr 1fr;
+        gap: .5rem;
+    }
+    .card{
+        margin: 0 12px;
     }
 }
